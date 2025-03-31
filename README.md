@@ -57,4 +57,38 @@ Console.WriteLine($"My Number2 is : {myNumber2}");
 |Throws an exception: (e.g., FormatException, OverflowException) if the conversion fails.       | Returns a boolean value: indicating whether the conversion was successful.     |  
 | Requires you to use a try-catch block for error handling.  | If the conversion fails, it returns false and the out parameter is set to its default value.    |   
 ||Eliminates the need for try-catch: for basic error handling. 
+
+
  
+## .NET
+> .NET is a software framework that is designed and developed by Microsoft.
+> The first version of the .Net framework was 1.0 which came in the year 2002.
+> In easy words, it is a virtual machine for compiling and executing programs written in different languages like C#, VB.Net, etc.
+> It is used to develop form-based applications, web-based applications, and web services. There is a variety of programming languages available on the .Net platform, VB.Net, and C# being the most common ones.
+> It is used to build applications for Windows, mobile, web, etc. It provides a lot of functionalities and also supports industry standards.
+> .NET Framework supports more than 60 programming languages in which 11 programming languages are designed and developed by Microsoft.
+> The remaining Non-Microsoft languages which are supported by .NET Framework but not designed and developed by Microsoft.
+>
+## .NET Core
+> .NET Core is a free open source, a general-purpose development platform for developing modern cloud-based software applications on Windows, Linux, and macOS operating systems.
+> It operates across several platforms and has been revamped to make .NET fast, scalable, and modern. .NET Core is one of Microsoft’s big contributions and released under the MIT License. It offers the following features:
+
+## Cross-Platform
+1. Open Source
+2. High Performance
+3. Multiple environments and development mode etc.
+
+## Comparison
+| .NET Core        | .NET Framework           | 
+| ------------- |:-------------:|
+|.Net Core is an open source.       | Certain components of the .Net Framework are open source.  | 
+|Works on the principle of “build once, run anywhere”. It is compatible with various operating systems — Windows, Linux, and Mac OS as it is cross-platform.       	|.NET Framework is compatible with the windows operating system. Although, it was developed to support software and applications on all operating systems.       |
+
+|.NET Framework is compatible with the windows operating system. Although, it was developed to support software and applications on all operating systems.       	|.Net Core does not support desktop application development and it rather focuses on the web, windows mobile, and windows store.       |
+
+
+ 
+ 
+ |.Net Framework is used for the development of both desktop and web applications as well as it supports windows forms and WPF applications. [The full form of WPF is Windows Presentation Foundation. It's a Microsoft UI framework used for developing desktop applications       
+| .Net Core is shipped as a collection of Nugget packages.  | All the libraries of .Net Framework are packaged and shipped together.       |   
+
